@@ -1,0 +1,191 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+    box-shadow: 0 0 20px black;
+    background-color: #914F1E;
+    width: 30%;
+    height: 80%;
+    border-radius: 2%;
+    animation: upslow infinite 5s;
+}
+
+@keyframes upslow {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-30px); 
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.head{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    width: 100%;
+    height: 20%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.forms{
+    height: 50%;
+    padding: 20px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+}
+#name{
+    border-radius: 20px 20px 20px;
+    font-size: 15px;
+}
+#password{
+    border-radius: 20px 20px 20px;
+    font-size: 15px;
+}   
+.soa{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#button_1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    border-radius: 10px 10px 10px;
+    border-style: double;
+    border-color: #333;
+    color: rgb(11, 109, 247);
+    width: 50%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.816);
+    cursor: pointer;
+    font-size: 30px
+}
+#button_1:hover{
+    box-shadow: 0 0 20px turquoise;
+    animation: bordercolor 5s infinite linear;
+}
+@keyframes bordercolor {
+    0% {
+        border-color: #3498db; 
+    }
+    25% {
+        border-color: #e74c3c; 
+    }
+    50% {
+        border-color: #f1c40f; 
+    }
+    75% {
+        border-color: #2ecc71; 
+    }
+    100% {
+        border-color: #3498db; 
+    }
+}
+a{
+    text-decoration: none;
+    color: rgb(11, 109, 247);
+}
+@media (max-width: 600px) {
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      height: 100vh;
+      margin: 0;
+      font-size: 1px;
+    }
+
+    .container{
+        box-shadow: 0 0 20px black;
+        background-color: #914F1E;
+        width: 80%;
+        height: 80%;
+        border-radius: 2%;
+    }
+    .head{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border-top-left-radius: 2%;
+        border-top-right-radius: 2%;
+        width: 100%;
+        height: 20%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+    }
+    .forms{
+        height: 50%;
+        padding: 20px;
+        font-weight: 700;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: grid;
+    }
+    #name{
+        border-radius: 20px 20px 20px;
+        font-size: 15px;
+    }
+    #password{
+        border-radius: 20px 20px 20px;
+        font-size: 15px;
+    }   
+    .soa{
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #button_1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 900;
+        border-radius: 10px 10px 10px;
+        border-style: double;
+        border-color: #333;
+        color: rgb(11, 109, 247);
+        width: 50%;
+        height: 50%;
+        background-color: rgba(255, 255, 255, 0.816);
+        cursor: pointer;
+        font-size: 30px
+    }
+    #button_1:hover{
+        box-shadow: 0 0 20px turquoise;
+        animation: bordercolor 5s infinite linear;
+    }
+    @keyframes bordercolor {
+        0% {
+            border-color: #3498db; 
+        }
+        25% {
+            border-color: #e74c3c; 
+        }
+        50% {
+            border-color: #f1c40f; 
+        }
+        75% {
+            border-color: #2ecc71; 
+        }
+        100% {
+            border-color: #3498db; 
+        }
+    }
+    a{
+        text-decoration: none;
+        color: rgb(11, 109, 247);
+    }  
+  }
+  
